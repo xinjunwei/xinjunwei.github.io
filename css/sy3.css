@@ -1,0 +1,220 @@
+/*-----------------实验3------------------*/
+/*3-1*/
+#sy3-1bd{
+    background-color: whitesmoke;
+}
+#sy3-1bd h2{
+    text-align: center;
+    color: red;
+}
+#sy3-1bd h3{
+    text-align: left;
+    color: green;
+}
+#sy3-1bd p{
+    color: black;
+    line-height: 50px;
+    text-indent: 2em;
+}
+
+/*3-2*/
+.sy3-2bd *{
+    padding: 0px;
+    margin: 0px;
+    line-height: 20px;
+}
+.sy3-2bd{
+    height: 100%;
+    background-color:blanchedalmond;
+    position: relative;
+}
+.sy3-2jiaju{
+    border: 0px;
+    float: right;
+    padding: 0 0 0 30px;
+}
+#sy3-2main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    overflow: hidden;
+    float: left;
+    width: 752px;
+    color:black;
+}
+.sy3-2content{
+    width: 720px;
+    float: left;
+    padding: 20px 0 10px 20px;
+}
+.sy3-2box{
+    padding: 10px 0 10px 0;
+    margin: 10px 20px 10px 0;
+    clear: both;
+}
+.sy3-2box p{
+    padding: 5px 15px 5px 15px;
+    text-indent: 2em;
+}
+
+/*3-3*/
+.sy3-3test ul{
+    list-style: none;
+}
+.sy3-3test li{
+    float: left;
+    width: 240px;
+    background-color: #ccc;
+    margin-left: 3px;
+    line-height: 30px
+}
+.sy3-3test a:link{
+    color:grey;
+    background:url(../img/QQ图片20211108113128.gif) no-repeat;
+    text-decoration:none;
+}
+.sy3-3test a:visited{
+    color:blueviolet;
+    text-decoration:underline;
+}
+.sy3-3test a:hover{
+    color:red;
+    font-weight:bold;
+    text-decoration:none;
+    background:url(../img/QQ图片20211108113153.gif) no-repeat;
+}
+.sy3-3test a{
+    display: block;
+    text-align: center;
+    height: 240px;
+}
+.sy3-3{
+    height: 240px;
+    line-height: 240px;
+    font-size: 20px;
+}
+
+/*3-4*/
+.sy3-4tb{
+    width: 600px;
+    border: 1px solid black;
+    font: 1em "楷体";
+    border-collapse: collapse;
+    text-align: center;
+}
+.sy3-4tb th{
+    background-color:teal;
+    color: white;
+}
+.sy3-4tb td{
+    background-color:azure;
+}
+.sy3-4t td{
+    background-color:lemonchiffon;
+}
+
+/*3-5*/
+.sy3-5{
+    margin: 0 auto;
+    width: 380px;
+    padding: 14px;
+    border: 2px dashed #b7ddf2;
+    background-color: #ebf4fb;
+}
+.sy3-5 *{
+    margin: 0px;
+    padding: 0px;
+    font-family: "楷体";
+    font-size: 15px;
+    line-height: 1.5em;
+}
+.sy3-5 h2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #b7ddf2;
+}
+.sy3-5content{
+    padding: 5px;
+}
+.sy3-5username,.sy3-5password{
+    margin-bottom: 8px;
+}
+.sy3-5username input,.sy3-5password input{
+    width: 220px;
+    height: 18px;
+    padding: 8px 0px 8px 30px;
+    border: 1px solid #aacfe4;
+}
+.sy3-5username input{
+    background: #fff url(../img/图标2.png) no-repeat left center;
+}
+.sy3-5password input{
+    background:#fff url(../img/图标3.png) no-repeat left center;
+}
+.sy3-5button{
+    text-align: center;
+}
+.sy3-5button input{
+    text-align: left;
+    width: 60px;
+    height: 40px;
+    background:white url(../img/图标1.png) no-repeat right center;
+}
+
+/*3-6*/
+.sy3-6bd{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    background-image: url(../img/海贼王.jpg);
+}
+.sy3-6ul{
+    width: 1600px;
+    height: 800px;
+    margin: 0 auto;
+    padding: 12px 0 0 12px;
+    border: 1px solid gainsboro;
+    border-top-style: dotted;
+    list-style: none;
+}
+.sy3-6ul li{
+    float: left;
+    margin: 0 12px 12px 0;
+    display: inline;
+}
+.sy3-6ul li a{
+    display: block;
+    width: 350px;
+    height: 400px;
+    text-decoration: none;
+    text-align: center;
+    overflow: hidden;
+}
+.sy3-6ul li a img{
+
+    height: 300px;
+    border: 1px solid gainsboro;
+}
+.sy3-6ul li a strong{
+    display: block;
+    width: 350px;
+    height: 60px;
+    line-height: 30px;
+    font-weight: 100;
+    color: white;
+    overflow: hidden;
+}
+.sy3-6ul li a span{
+    display: block;
+    width: 404px;
+    height: 40px;
+    line-height: 30px;
+    color: red;
+}
+.sy3-6ul li a span em{
+    font-style: normal;
+    font-weight: 800;
+    color: #f60;
+}
