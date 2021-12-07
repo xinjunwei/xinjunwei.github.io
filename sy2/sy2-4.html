@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sy2-4</title>
+        <style type="text/css">
+            table{
+                width: 500px;
+                border: 1px solid greenyellow;
+                margin: auto;
+            }
+            td{
+                width: 400px;
+                height: 20px;
+                text-align: left;
+            }
+            .xinxi{
+                width: 100px;
+                height: 20px;
+                text-align: right;
+            }
+            .xinxi2{
+                height: 20px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="www.baidu.com">
+            <table border="1px">
+                <tr>
+                    <td class="xinxi">姓名</td>
+                    <td>
+                        <input type="text" name="username" size="24px">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="xinxi">密码</td>
+                    <td>
+                        <input type="password" name="pass" size="24px">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="xinxi">手机号</td>
+                    <td>
+                        <input type="tel" name="phone" size="24px" maxlength="11">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="xinxi">邮箱</td>
+                    <td>
+                        <input type="email" name="e-mail" size="24px" value="bilibili@example.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="xinxi">性别</td>
+                    <td>
+                        <input type="radio" name="sex" size="24px" value="男">男
+                        <input type="radio" name="sex" size="24px" value="女">女
+                    </td>
+                </tr>
+                <tr>
+                    <td class="xinxi">技术</td>
+                    <td>
+                        <input type="checkbox" name="skill" size="24px" value="java">java
+                        <input type="checkbox" name="skill" size="24px" value="Jsp">Jsp
+                        <input type="checkbox" name="skill" size="24px" value="python">Python
+                        <input type="checkbox" name="skill" size="24px" value="C++">C++
+                    </td>
+                </tr>
+                <tr>
+                    <td class="xinxi">网站</td>
+                    <td>
+                        <input type="url" name="web" size="24px" value="http://www.bilibili.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="xinxi">出生日期</td>
+                    <td>
+                        <input type="date" name="birth" size="24px" value=" 年/ 月/ 日">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="xinxi">喜欢的颜色</td>
+                    <td>
+                        <input type="color" name="color1" size="24px">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="xinxi">国家</td>
+                    <td>
+                        <select name="nation">
+                            <option value="中国" selected>中国</option>
+                            <option value="日本">日本</option>
+                            <option value="美国">美国</option>
+                            <option value="俄罗斯">俄罗斯</option>
+                            <option value="法国">法国</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="xinxi">留言</td>
+                    <td>
+                        <textarea name="留言" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="xinxi2" colspan="2">
+                        <input type="submit" name="submit1" value="提交">
+                        <input type="reset" name="submit2" value="重置">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
