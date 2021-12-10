@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>sy7-1</title>
+        <style type="text/css">
+            div{
+                width: 400px;
+                margin: auto;
+            }
+            #bt{
+                font-size: 24px;
+                color: blue;
+                background-color:blanchedalmond;
+            }
+            #bt:hover {
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+        </style>
+        <script type="text/javascript">
+            function control_1()
+            {
+                var light=document.getElementById("my_light");
+                var control=document.getElementById("bt");
+                if(control.innerHTML=="关灯"){
+                    light.src="./light-02.png";
+                    control.innerHTML="开灯";                 
+                }
+                else{
+                    light.src="./light-01.png";
+                    control.innerHTML="关灯";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <img id="my_light" src="./light-01.png" alt="#">
+            <button id="bt" onclick="control_1()" >关灯</button>
+        </div>
+    </body>
+</html>
